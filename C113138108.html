@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷表</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7c8dd49;
+            margin: 0;
+            padding: 30px;
+        }
+        .container {
+            background: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(91, 64, 74, 0.982);
+            max-width: 600px;
+            margin: auto;
+            padding: 30px;
+            position: relative;
+        }
+        h1 {
+            color: #2c0817;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 220px; 
+            height: auto;
+            border-radius: 50%;
+            position: absolute;
+            top: 40px;
+            right: 30px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #2c0817;
+            border-bottom: 4px solid #c392a468;
+            padding-bottom: 5px;
+        }
+        .info {
+            margin: 10px 0;
+            padding: 10px;
+            background: #b39da831;
+            border-radius: 5px;
+           
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .skill {
+            background: #5a31419e;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="個人照.jpg" alt="個人照片">
+        <h1>　張珈瑜</h1>
+        <div class="info">
+            <p><strong>性別:</strong> 女</p>
+            <p><strong>生日:</strong> 94.10.15</p>
+        </div>
+
+        <div class="section">
+            <h2>學歷</h2>
+            <p>嘉義市 嘉北國小</p>
+            <p>嘉義市 北興國中</p>
+            <p>嘉義市 嘉義高商</p>
+        </div>
+
+        <div class="section">
+            <h2>證照</h2>
+            <p>電腦軟體應用 乙級</p>
+            <p>電腦軟體應用 丙級</p>
+            <p>會計事務-資訊 丙級</p>
+            <p>門市服務 丙級</p>
+        </div>
+
+        <div class="section">
+            <h2>興趣</h2>
+            <div class="skills">
+                <div class="skill">聽音樂</div>
+                <div class="skill">烘培</div>
+                <div class="skill">畫畫</div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
